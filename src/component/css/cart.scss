@@ -1,0 +1,20 @@
+@import '../css/common.scss';
+#cart{
+    .title{
+       @extend %reative;
+        span{
+            &.wenzi{
+               @extend %absolution;
+            }
+        }
+    }
+    .box{
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        margin: 100px auto;
+        svg{
+            font-size: 32px;
+        }
+    }
+}

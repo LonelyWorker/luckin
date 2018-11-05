@@ -1,0 +1,62 @@
+#home{
+    overflow: auto;
+    .swiper{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #ccc;
+        video{
+            margin: 0;
+            padding: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .list{
+        margin: 0; 
+        padding: 0;
+        overflow: auto;
+        .tab{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            overflow: auto;
+            article{
+                @extend li;
+                hgroup{
+                    @extend hgroup;
+                    box-sizing: border-box;
+                }
+                figure{
+                    float: right;
+                }
+            }
+            li{
+                width: 100%;
+                padding: .625rem;
+                list-style: none;
+                overflow: auto;
+                border-bottom: 1px solid  #ccc;
+                &:last-child{
+                    border: 0 none;
+                }
+                hgroup{
+                    padding: 0 .625rem;
+                    float: left;
+                }
+                section{
+                    width: 3.125rem;
+                    height: 3.125rem;
+                    float: right;
+                    font-size: 1.75rem;
+                    line-height: 3.125rem;
+                    text-align: center;
+                    border-radius: 50%;
+                    border:1px solid #ccc;
+                    color: rgb(165, 135, 107);
+                }
+            }
+        }
+    }
+}

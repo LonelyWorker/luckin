@@ -1,0 +1,25 @@
+%reative{
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;  
+    position: relative;
+    z-index: 9999;
+}
+%absolution{
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 999;
+    height: 50px;
+    display: flex;
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
